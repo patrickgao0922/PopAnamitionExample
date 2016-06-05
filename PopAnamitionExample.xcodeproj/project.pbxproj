@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96140AFA1D04664600300BAC /* CustomVCTransitionViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96140AF91D04664600300BAC /* CustomVCTransitionViewCtrl.swift */; };
+		96140AFC1D046B3100300BAC /* PresentingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96140AFB1D046B3100300BAC /* PresentingAnimationController.swift */; };
 		96A0A7621D029821002F593A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A0A7611D029821002F593A /* AppDelegate.swift */; };
 		96A0A7671D029821002F593A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A0A7651D029821002F593A /* Main.storyboard */; };
 		96A0A76A1D029821002F593A /* PopAnamitionExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96A0A7681D029821002F593A /* PopAnamitionExample.xcdatamodeld */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		227F163F41C76DD3B78D9977 /* Pods-PopAnamitionExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopAnamitionExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopAnamitionExample/Pods-PopAnamitionExample.debug.xcconfig"; sourceTree = "<group>"; };
 		5AD95AF8BF95A14FE4079870 /* Pods_PopAnamitionExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopAnamitionExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96140AF91D04664600300BAC /* CustomVCTransitionViewCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVCTransitionViewCtrl.swift; sourceTree = "<group>"; };
+		96140AFB1D046B3100300BAC /* PresentingAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentingAnimationController.swift; sourceTree = "<group>"; };
 		96A0A75E1D029821002F593A /* PopAnamitionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopAnamitionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A0A7611D029821002F593A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96A0A7661D029821002F593A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 		96A0A7551D029821002F593A = {
 			isa = PBXGroup;
 			children = (
+				96140AF91D04664600300BAC /* CustomVCTransitionViewCtrl.swift */,
 				96A0A7601D029821002F593A /* PopAnamitionExample */,
 				96A0A75F1D029821002F593A /* Products */,
 				BFE8D18148743EC584204856 /* Pods */,
@@ -83,6 +88,7 @@
 				96A0A7681D029821002F593A /* PopAnamitionExample.xcdatamodeld */,
 				96A0A7761D029A6D002F593A /* TableViewController.swift */,
 				96A0A77B1D029E4C002F593A /* PopAnamitionExample-Bridging-Header.h */,
+				96140AFB1D046B3100300BAC /* PresentingAnimationController.swift */,
 			);
 			path = PopAnamitionExample;
 			sourceTree = "<group>";
@@ -221,7 +227,9 @@
 				96A0A7621D029821002F593A /* AppDelegate.swift in Sources */,
 				96A0A7791D029C8E002F593A /* TableViewCell.swift in Sources */,
 				96A0A7771D029A6D002F593A /* TableViewController.swift in Sources */,
+				96140AFA1D04664600300BAC /* CustomVCTransitionViewCtrl.swift in Sources */,
 				96A0A76A1D029821002F593A /* PopAnamitionExample.xcdatamodeld in Sources */,
+				96140AFC1D046B3100300BAC /* PresentingAnimationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
