@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96A0A75D1D029821002F593A"
-               BuildableName = "PopAnamitionExample.app"
-               BlueprintName = "PopAnamitionExample"
-               ReferencedContainer = "container:PopAnamitionExample.xcodeproj">
+               BlueprintIdentifier = "1B3BCC753FEC3FC399111F9EF822E92B"
+               BuildableName = "Pods_PopAnamitionExample.framework"
+               BlueprintName = "Pods-PopAnamitionExample"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96A0A75D1D029821002F593A"
-            BuildableName = "PopAnamitionExample.app"
-            BlueprintName = "PopAnamitionExample"
-            ReferencedContainer = "container:PopAnamitionExample.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96A0A75D1D029821002F593A"
-            BuildableName = "PopAnamitionExample.app"
-            BlueprintName = "PopAnamitionExample"
-            ReferencedContainer = "container:PopAnamitionExample.xcodeproj">
+            BlueprintIdentifier = "1B3BCC753FEC3FC399111F9EF822E92B"
+            BuildableName = "Pods_PopAnamitionExample.framework"
+            BlueprintName = "Pods-PopAnamitionExample"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96A0A75D1D029821002F593A"
-            BuildableName = "PopAnamitionExample.app"
-            BlueprintName = "PopAnamitionExample"
-            ReferencedContainer = "container:PopAnamitionExample.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
